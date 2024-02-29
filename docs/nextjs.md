@@ -102,11 +102,11 @@ Reason: These hooks seem will be deprecated in the React 19 version because of t
 
 ## Comments
 
-- Use `//` for comments.
-- Use `//?` for comments why the code is written.
-- Use `//!` for comments the potential issue.
-- Use `//$!` for comments the confirmed issue.
-- Use `//TODO` for comments what to do in the future.
+- Use // for comments.
+- Use //? for comments on why the code is written.
+- Use //! for comments on the potential issue.
+- Use //$! for comments on the confirmed issue.
+- Use //TODO for comments on what to do in the future.
 
 ## `Type` and `Interface`
 
@@ -130,4 +130,4 @@ Reason: This is not the way that JavaScript does like the `window` interface is 
 
 ## Enum
 
-- Try to avoid using `Enum` because there is a potential issue with `Enum` after the code is compiled to JavaScript.
+- Try to avoid using Enum because there is a potential issue with Enum after the code is compiled into JavaScript.
