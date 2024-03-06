@@ -70,12 +70,40 @@ src/
 
 ## File Naming
 
-All files must be in lowercase and use hyphens to separate words.
+- All files inside `components` and `app` must be in lowercase and use `-` to separate words.
 
-```diff
-- MyComponent.tsx
-+ my-component.tsx
-```
+  ```diff
+  - MyComponent.tsx
+  + my-component.tsx
+  ```
+
+- All files inside `lib` must be in lowercase and use `-` to separate words.
+
+  ```diff
+  - myUtils.ts
+  + my-utils.ts
+  ```
+  
+- All files inside `hooks` must be start with `use` and use camelCase to separate words. All hooks are **client components**.
+
+  ```diff
+  - Auth.ts
+  + useAuth.ts
+  ```
+
+- All files inside `actions` must be start with `get` and use camelCase to separate words. All actions are **server components**.
+
+  ```diff
+  - Users.ts
+  + getUsers.ts
+  ```
+
+- All test files must be in the `__tests__` folder and have to follow the same hierarchy as the file being tested. The file name must be the same as the file being tested with `.test.*` extension.
+
+  ```diff
+  - src/lib/utils.ts
+  + src/__tests__/lib/utils.test.ts
+  ```
 
 ## Forbidden Hooks
 
