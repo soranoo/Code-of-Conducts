@@ -1,5 +1,5 @@
 # Code of Conduct (Next.JS)
-Last Updated: 2024-02-29
+Last Updated: 06-03-2024
 
 > [!WARNING]
 > This document is a work in progress and is subject to change.
